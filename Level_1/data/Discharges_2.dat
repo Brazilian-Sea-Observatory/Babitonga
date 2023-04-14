@@ -1,0 +1,21 @@
+IGNORE_ON                 : 1
+SLOW_START                : 86400
+
+<begindischarge>
+NAME                      : Rio Cubatao do Norte
+DESCRIPTION               : Previsao a partir de Joinville
+COORD_X                   : -48.7945
+COORD_Y                   : -26.1984
+DISCHARGE_UNIFORM         : 1
+
+DATA_BASE_FILE            : ../GeneralData/BoundaryConditions/SC_Rio_Joinville.dat
+FLOW_COLUMN               : 2
+
+<<beginproperty>>
+NAME                      : temperature
+UNITS                     : ºC
+DESCRIPTION               : Enter a short description
+FILENAME                  : ../GeneralData/BoundaryConditions/SerieMensalQld.dat
+TIME_SERIE_COLUMN         : 3
+<<endproperty>>
+<enddischarge>

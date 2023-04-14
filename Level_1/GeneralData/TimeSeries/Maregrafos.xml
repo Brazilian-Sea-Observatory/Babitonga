@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NamedGeometryCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Proj4String> +proj=longlat +datum=WGS84 +no_defs</Proj4String>
+  <NamedGeometries>
+    <NamedGeometry>
+      <ID>0</ID>
+      <Name>Ilha_da_Paz</Name>
+      <GeometryWKT>POINT (-48.49 -26.18)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>1</ID>
+      <Name>Porto_de_Itapoa</Name>
+      <GeometryWKT>POINT (-48.61 -26.19)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>2</ID>
+      <Name>Joinville_Iate_Clube</Name>
+      <GeometryWKT>POINT (-48.79 -26.3)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+  </NamedGeometries>
+</NamedGeometryCollection>

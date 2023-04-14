@@ -1,0 +1,147 @@
+OUTPUT_TIME               : 86400
+
+!With cold relaxation period of 1 day
+COLD_RELAX_PERIOD_DEFAULT : 86400
+
+<beginproperty>
+NAME                      : water level
+UNITS                     : m
+DIMENSION                 : 2D
+OUTPUT_HDF                : 1
+
+<<begin_field>>
+DEFAULTVALUE              : 0
+INITIALIZATION_METHOD     : HDF
+FILE_IN_TIME              : HDF
+FIELD4D                   : 1
+SPATIAL_INTERPOL          : 1
+EXTRAPOLATE               : 1
+FILENAME                  : ../GeneralData/BoundaryConditions/Hydrodynamic_2_Surface.hdf5
+TYPE_ZUV                  : z
+<<end_field>>
+
+<<begin_coef>>
+DEFAULTVALUE              : 1e9
+TYPE_ZUV                  : z
+FILE_IN_TIME              : NONE
+REMAIN_CONSTANT           : 1
+INITIALIZATION_METHOD     : SPONGE
+SPONGE_CELLS              : 10
+SPONGE_OUT                : 900
+<<end_coef>>
+<endproperty>
+
+<beginproperty>
+NAME                      : velocity U
+UNITS                     : m/s
+DIMENSION                 : 3D
+OUTPUT_HDF                : 1
+
+<<begin_field>>
+DEFAULTVALUE              : 0
+INITIALIZATION_METHOD     : HDF
+FILE_IN_TIME              : HDF
+FIELD4D                   : 1
+SPATIAL_INTERPOL          : 1
+EXTRAPOLATE               : 1
+REMAIN_CONSTANT           : 1
+FILENAME                  : ../GeneralData/BoundaryConditions/Hydrodynamic_2.hdf5
+TYPE_ZUV                  : z
+<<end_field>>
+
+<<begin_coef>>
+DEFAULTVALUE              : 1e9
+TYPE_ZUV                  : u
+FILE_IN_TIME              : NONE
+REMAIN_CONSTANT           : 1
+INITIALIZATION_METHOD     : SPONGE
+SPONGE_CELLS              : 10
+SPONGE_OUT                : 3600
+<<end_coef>>
+<endproperty>
+
+<beginproperty>
+NAME                      : velocity V
+UNITS                     : m/s
+DIMENSION                 : 3D
+OUTPUT_HDF                : 1
+
+
+<<begin_field>>
+DEFAULTVALUE              : 0
+INITIALIZATION_METHOD     : HDF
+FILE_IN_TIME              : HDF
+FIELD4D                   : 1
+SPATIAL_INTERPOL          : 1
+EXTRAPOLATE               : 1
+FILENAME                  : ../GeneralData/BoundaryConditions/Hydrodynamic_2.hdf5
+TYPE_ZUV                  : z
+<<end_field>>
+
+<<begin_coef>>
+DEFAULTVALUE              : 1e9
+TYPE_ZUV                  : v
+FILE_IN_TIME              : NONE
+REMAIN_CONSTANT           : 1
+INITIALIZATION_METHOD     : SPONGE
+SPONGE_CELLS              : 10
+SPONGE_OUT                : 3600
+<<end_coef>>
+<endproperty>
+
+
+<beginproperty>
+NAME                      : salinity
+UNITS                     : PSU
+DIMENSION                 : 3D
+OUTPUT_HDF                : 1
+
+<<begin_field>>
+DEFAULTVALUE              : 30
+INITIALIZATION_METHOD     : HDF
+FILE_IN_TIME              : HDF
+FIELD4D                   : 1
+SPATIAL_INTERPOL          : 1
+EXTRAPOLATE               : 1
+FILENAME                  : ../GeneralData/BoundaryConditions/WaterProperties_2.hdf5
+TYPE_ZUV                  : z
+<<end_field>>
+
+<<begin_coef>>
+DEFAULTVALUE              : 1e9
+TYPE_ZUV                  : z
+FILE_IN_TIME              : NONE
+REMAIN_CONSTANT           : 1
+INITIALIZATION_METHOD     : SPONGE
+SPONGE_CELLS              : 10
+SPONGE_OUT                : 3600
+<<end_coef>>
+<endproperty>
+
+<beginproperty>
+NAME                      : temperature
+UNITS                     : oC
+DIMENSION                 : 3D
+OUTPUT_HDF                : 1
+
+<<begin_field>>
+DEFAULTVALUE              : 25
+INITIALIZATION_METHOD     : HDF
+FILE_IN_TIME              : HDF
+FIELD4D                   : 1
+SPATIAL_INTERPOL          : 1
+EXTRAPOLATE               : 1
+FILENAME                  : ../GeneralData/BoundaryConditions/WaterProperties_2.hdf5
+TYPE_ZUV                  : z
+<<end_field>>
+
+<<begin_coef>>
+DEFAULTVALUE              : 1e9
+TYPE_ZUV                  : z
+FILE_IN_TIME              : NONE
+REMAIN_CONSTANT           : 1
+INITIALIZATION_METHOD     : SPONGE
+SPONGE_CELLS              : 10
+SPONGE_OUT                : 3600
+<<end_coef>>
+<endproperty>

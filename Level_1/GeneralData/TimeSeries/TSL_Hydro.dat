@@ -1,0 +1,25 @@
+DT_OUTPUT_TIME            : 300
+MAX_BUFFER_SIZE           : 10000
+
+! Maregrafos Babitonga
+
+<BeginTimeSerie>
+NAME                      : Ilha_da_Paz
+COORD_X                   : -48.49 
+COORD_Y                   : -26.18
+LOCALIZATION_K            : 50
+<EndTimeSerie>
+
+<BeginTimeSerie>
+NAME                      : Porto_de_Itapoa
+COORD_X                   : -48.61 
+COORD_Y                   : -26.19
+LOCALIZATION_K            : 50
+<EndTimeSerie>
+
+<BeginTimeSerie>
+NAME                      : Joinville_Iate_Clube
+COORD_X                   : -48.79 
+COORD_Y                   : -26.3
+LOCALIZATION_K            : 50
+<EndTimeSerie>

@@ -1,0 +1,31 @@
+ HDF_FILE                  Convert2netcdf            Do not have               From File                 D:\MOHID\FPOLIS_Bays\Backup\20221119_20221120\WaterPropertie YES
+ NETCDF_FILE               Convert2netcdf            Do not have               From File                 D:\MOHID\FPOLIS_Bays\Backup\20221119_20221120\WaterPropertie YES
+ NETCDF_TITLE              Convert2netcdf            Do not have               From File                 -                                                            YES
+ NETCDF_CONVENTION         Convert2netcdf            CF-1.0                    From File                 CF-1.0                                                       YES
+ NETCDF_VERSION            Convert2netcdf            3.6.1                     From File                 3.5.1                                                        YES
+ NETCDF_HISTORY            Convert2netcdf            Do not have               From File                 -                                                            YES
+ NETCDF_SOURCE             Convert2netcdf            Do not have               From File                 ConvertTonetcdf                                              YES
+ NETCDF_INSTITUTION        Convert2netcdf            Instituto Superior Tecnic From File                 Technical University of Lisbon - Instituto Superior Tecnico  YES
+ NETCDF_REFERENCES         Convert2netcdf            http://www.mohid.com      From File                 http://www.mohid.com/                                        YES
+ NETCDF_DATE               Convert2netcdf            Do not have               From File                 2019                                                         YES
+ HDF_TIME_VAR              Convert2netcdf            Time                      From File                 Time                                                         YES
+ HDF_VERT_VAR              Convert2netcdf            VerticalZ/Vertical        From File                 VerticalZ/Vertical                                           YES
+ HDF_SIZE_GROUP            Convert2netcdf            /Grid                     From File                 /Grid                                                        YES
+ IMPOSE_MASK               Convert2netcdf            FALSE                     From File                 TRUE                                                         YES
+ HDF_MASK                  Convert2netcdf            WaterPoints3D             From File                 WaterPoints3D                                                YES
+ HDF_MASK_IS_3D            Convert2netcdf            TRUE                      From File                 TRUE                                                         YES
+ RESULTS_ARE_2D            Convert2netcdf            FALSE                     From File                 FALSE                                                        YES
+ OUTPUT_IS_2D              Convert2netcdf            FALSE                     From File                 FALSE                                                        YES
+ HDF_SIZE_DATASET          Convert2netcdf            WaterPoints3D             From File                 WaterPoints3D                                                YES
+ HDF_READ_LATLON           Convert2netcdf            TRUE                      From File                 TRUE                                                         YES
+ HDF_READ_SIGMA            Convert2netcdf            FALSE                     From File                 FALSE                                                        YES
+ CONVERT_EVERYTHING        Convert2netcdf            TRUE                      From File                 TRUE                                                         YES
+ DEPTH_OFFSET              Convert2netcdf            0.0000000E+00             From File                 0.0000000E+00                                                YES
+ REFERENCE_TIME            Convert2netcdf            Do not have               From File                 2022.000       11.00000       19.00000      0.0000000E+00  0 YES
+ DECIMAL_PLACES            Convert2netcdf            -9999999                  From File                 -9999999                                                     YES
+ STAG_GOOGLE_OUT           Convert2netcdf            TRUE                      From File                 TRUE                                                         YES
+ DEPTH_LAYERS              Convert2netcdf            Do not have               From File                                                                              YES
+ ADD_FACTOR                Convert2netcdf            0.0000000E+00             From File                 0.0000000E+00                                                YES
+ MULTIPLY_FACTOR           Convert2netcdf            1.000000                  From File                 1.000000                                                     YES
+ SIMPLE_GRID               Convert2netcdf            FALSE                     From File                 TRUE                                                         YES
+ MISSING_VALUE             Convert2netcdf            -9.8999995E+15            From File                 -9.8999995E+15                                               YES

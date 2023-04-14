@@ -1,0 +1,31 @@
+HDF_FILE : D:\MOHID\FPOLIS_Bays\Backup\20221119_20221120\WaterProperties_2.hdf5
+HDF_SIZE_GROUP       : /Grid
+HDF_MASK             : WaterPoints3D
+HDF_TIME_VAR         : Time
+HDF_READ_LATLON      : 1
+HDF_READ_SIGMA       : 0
+HDF_READ_DEPTH       : 1
+IMPOSE_MASK          : 1
+RESULTS_ARE_2D       : 0
+HDF_MASK_IS_3D       : 1
+NETCDF_FILE : D:\MOHID\FPOLIS_Bays\Backup\20221119_20221120\WaterProperties_2.hdf5.nc
+NETCDF_TITLE         : -
+NETCDF_CONVENTION    : CF-1.0
+NETCDF_VERSION       : 3.5.1
+NETCDF_HISTORY       : -
+NETCDF_SOURCE        : ConvertTonetcdf
+NETCDF_INSTITUTION   : Technical University of Lisbon - Instituto Superior Tecnico (IST) - MARETEC
+NETCDF_REFERENCES    : http://www.mohid.com/
+NETCDF_DATE          : 2019
+
+
+REFERENCE_TIME : 2022 11 19 0 0 0
+CONVERT_EVERYTHING   : 1
+ADD_FACTOR : 0.
+MULTIPLY_FACTOR : 1.
+SIMPLE_GRID     : 1
+
+
+<begin_groups>
+/Results/
+<end_groups>

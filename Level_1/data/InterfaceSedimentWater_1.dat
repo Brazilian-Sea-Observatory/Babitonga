@@ -1,0 +1,14 @@
+!Output options
+!OUTPUT_TIME               : 0 86400
+!TIME_SERIE                : 0
+
+!OUTPUT_SHEAR_STRESS       : 1
+
+!Compute wave effect
+!WAVETENSION               : 0
+
+!rugosity and erosion/deposition parameter definition
+<begin_rugosity>
+INITIALIZATION_METHOD     : CONSTANT
+DEFAULTVALUE              : 0.0025
+<end_rugosity>

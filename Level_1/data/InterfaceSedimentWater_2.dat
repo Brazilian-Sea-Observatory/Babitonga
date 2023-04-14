@@ -1,0 +1,157 @@
+!Output options
+OUTPUT_TIME               : 0 86400
+!TIME_SERIE                : 0
+
+!OUTPUT_SHEAR_STRESS       : 1
+
+!Compute wave effect
+!WAVETENSION               : 0
+
+!rugosity and erosion/deposition parameter definition
+<begin_rugosity>
+INITIALIZATION_METHOD     : CONSTANT
+DEFAULTVALUE              : 0.0025
+<end_rugosity>
+
+<begin_critical_shear_erosion>
+INITIALIZATION_METHOD     : CONSTANT
+DEFAULTVALUE              : 0.4
+<end_critical_shear_erosion>
+
+<begin_critical_shear_deposition>
+INITIALIZATION_METHOD     : CONSTANT
+DEFAULTVALUE              : 0.2
+<end_critical_shear_deposition>
+
+<begin_erosion_rate>
+INITIALIZATION_METHOD     : CONSTANT
+DEFAULTVALUE              : 0.00005
+<end_erosion_rate>
+
+<beginproperty>
+NAME                      : temperature
+UNITS                     : kg/m2
+DESCRIPTION               : dissolved contaminant mass
+PARTICULATE               : 0
+INITIALIZATION_METHOD     : CONSTANT
+DEFAULTVALUE              : 20.
+WATER_FLUXES              : 0
+MASS_LIMITATION           : 1
+MASS_MIN                  : 0.
+TIME_SERIE                : 0
+OUTPUT_HDF                : 0
+OLD                       : 1
+BENTHOS                   : 0
+<endproperty>
+
+<beginproperty>
+NAME                      : cohesive sediment
+UNITS                     : kg.m-2
+DESCRIPTION               : cohesive sediment mass
+PARTICULATE               : 1
+WATER_FLUXES              : 1
+EROSION                   : 1
+DEPOSITION                : 1
+MASS_LIMITATION           : 1
+MASS_MIN                  : 0.
+FILE_IN_TIME              : NONE
+!INITIALIZATION_METHOD     : CONSTANT
+INITIALIZATION_METHOD     : ASCII_FILE
+FILENAME                  : ..\GeneralData\InitialConditions\CoeSed2019.dat
+DEFAULTVALUE              : 1.0
+REMAIN_CONSTANT           : 0
+CEQUALW2                  : 0
+BENTHOS                   : 0
+TIME_SERIE                : 0
+BOX_TIME_SERIE            : 0
+OLD                       : 1
+OUTPUT_HDF                : 1
+<endproperty>
+
+<beginproperty>
+NAME                      : oxygen
+UNITS                     : kg/m2
+DESCRIPTION               : dissolved contaminant mass
+PARTICULATE               : 0
+INITIALIZATION_METHOD     : CONSTANT
+DEFAULTVALUE              : 0.
+WATER_FLUXES              : 1
+MASS_LIMITATION           : 1
+MASS_MIN                  : 0.
+TIME_SERIE                : 0
+BOX_TIME_SERIE            : 0
+OUTPUT_HDF                : 0
+OLD                       : 1
+BENTHOS                   : 1
+<endproperty>
+
+<beginproperty>
+NAME                      : ammonia
+UNITS                     : kg/m2
+DESCRIPTION               : dissolved contaminant mass
+PARTICULATE               : 0
+INITIALIZATION_METHOD     : CONSTANT
+DEFAULTVALUE              : 0.
+WATER_FLUXES              : 1
+MASS_LIMITATION           : 1
+MASS_MIN                  : 0.
+TIME_SERIE                : 0
+OUTPUT_HDF                : 0
+OLD                       : 1
+BENTHOS                   : 1
+<endproperty>
+
+<beginproperty>
+NAME                      : inorganic phosphorus
+UNITS                     : kg/m2
+DESCRIPTION               : dissolved contaminant mass
+PARTICULATE               : 0
+INITIALIZATION_METHOD     : CONSTANT
+DEFAULTVALUE              : 0.
+WATER_FLUXES              : 1
+MASS_LIMITATION           : 1
+MASS_MIN                  : 0.
+TIME_SERIE                : 0
+OUTPUT_HDF                : 0
+OLD                       : 1
+BENTHOS                   : 1
+<endproperty>
+
+<beginproperty>
+NAME                      : particulate organic nitrogen
+UNITS                     : kg/m2
+DESCRIPTION               : PON mass
+PARTICULATE               : 1
+WATER_FLUXES              : 1
+EROSION                   : 1
+DEPOSITION                : 1
+MASS_LIMITATION           : 1
+MASS_MIN                  : 0.
+INITIALIZATION_METHOD     : ASCII_FILE
+FILENAME                  : ..\GeneralData\InitialConditions\PON2019.dat
+DEFAULTVALUE              : 0.0001
+TIME_SERIE                : 1
+OUTPUT_HDF                : 1
+OLD                       : 1
+BENTHOS                   : 1
+<endproperty>
+
+<beginproperty>
+NAME                      : particulate organic phosphorus
+UNITS                     : kg/m2
+DESCRIPTION               : POP mass
+PARTICULATE               : 1
+WATER_FLUXES              : 1
+EROSION                   : 1
+DEPOSITION                : 1
+MASS_LIMITATION           : 1
+MASS_MIN                  : 0.
+INITIALIZATION_METHOD     : ASCII_FILE
+FILENAME                  : ..\GeneralData\InitialConditions\POP2019.dat
+DEFAULTVALUE              : 0.00001
+TIME_SERIE                : 1
+BOX_TIME_SERIE            : 0
+OUTPUT_HDF                : 1
+OLD                       : 1
+BENTHOS                   : 1
+<endproperty>
