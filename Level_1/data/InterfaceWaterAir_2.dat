@@ -1,3 +1,7 @@
+USE_COARE               : 1
+COMPUTE_WARM_LAYER      : 1
+COMPUTE_COOL_SKIN       : 1
+
 <begin_rugosity>
 INITIALIZATION_METHOD   : CONSTANT
 DEFAULTVALUE            : 0.0025

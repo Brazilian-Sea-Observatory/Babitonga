@@ -5,19 +5,25 @@
     <NamedGeometry>
       <ID>0</ID>
       <Name>Ilha_da_Paz</Name>
-      <GeometryWKT>POINT (-48.49 -26.18)</GeometryWKT>
+      <GeometryWKT>POINT (-48.486441 -26.178414)</GeometryWKT>
       <IsSelected>false</IsSelected>
     </NamedGeometry>
     <NamedGeometry>
       <ID>1</ID>
       <Name>Porto_de_Itapoa</Name>
-      <GeometryWKT>POINT (-48.61 -26.19)</GeometryWKT>
+      <GeometryWKT>POINT (-48.605867 -26.185037)</GeometryWKT>
       <IsSelected>false</IsSelected>
     </NamedGeometry>
     <NamedGeometry>
       <ID>2</ID>
       <Name>Joinville_Iate_Clube</Name>
-      <GeometryWKT>POINT (-48.79 -26.3)</GeometryWKT>
+      <GeometryWKT>POINT (-48.780344 -26.293499)</GeometryWKT>
+      <IsSelected>false</IsSelected>
+    </NamedGeometry>
+    <NamedGeometry>
+      <ID>3</ID>
+      <Name>Sao_Francisco_do_Sul</Name>
+      <GeometryWKT>POINT (-48.638943 -26.2332)</GeometryWKT>
       <IsSelected>false</IsSelected>
     </NamedGeometry>
   </NamedGeometries>

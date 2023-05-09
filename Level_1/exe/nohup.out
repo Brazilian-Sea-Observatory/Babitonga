@@ -1,0 +1,229 @@
+ 
+:: WARNING: setvars.sh has already been run. Skipping re-execution.
+   To force a re-execution of setvars.sh, use the '--force' option.
+   Using '--force' can result in excessive use of your environment variables.
+  
+usage: source setvars.sh [--force] [--config=file] [--help] [...]
+  --force        Force setvars.sh to re-run, doing so may overload environment.
+  --config=file  Customize env vars using a setvars.sh configuration file.
+  --help         Display this help message and exit.
+  ...            Additional args are passed to individual env/vars.sh scripts
+                 and should follow this script's arguments.
+  
+  Some POSIX shells do not accept command-line options. In that case, you can pass
+  command-line options via the SETVARS_ARGS environment variable. For example:
+  
+  $ SETVARS_ARGS="ia32 --config=config.txt" ; export SETVARS_ARGS
+  $ . path/to/setvars.sh
+  
+  The SETVARS_ARGS environment variable is cleared on exiting setvars.sh.
+  
+forrtl: severe (174): SIGSEGV, segmentation fault occurred
+Image              PC                Routine            Line        Source             
+libc.so.6          00007FCAFC549520  Unknown               Unknown  Unknown
+MohidWater_mpi.ex  0000000000E4868D  Unknown               Unknown  Unknown
+MohidWater_mpi.ex  0000000000E0BA5B  Unknown               Unknown  Unknown
+MohidWater_mpi.ex  0000000000E09912  Unknown               Unknown  Unknown
+MohidWater_mpi.ex  0000000000E09753  Unknown               Unknown  Unknown
+MohidWater_mpi.ex  0000000000871D22  Unknown               Unknown  Unknown
+MohidWater_mpi.ex  0000000000FD04D7  Unknown               Unknown  Unknown
+MohidWater_mpi.ex  0000000000FCA6D6  Unknown               Unknown  Unknown
+MohidWater_mpi.ex  000000000040516D  Unknown               Unknown  Unknown
+libc.so.6          00007FCAFC530D90  Unknown               Unknown  Unknown
+libc.so.6          00007FCAFC530E40  __libc_start_main     Unknown  Unknown
+MohidWater_mpi.ex  0000000000405085  Unknown               Unknown  Unknown
+ 
+:: WARNING: setvars.sh has already been run. Skipping re-execution.
+   To force a re-execution of setvars.sh, use the '--force' option.
+   Using '--force' can result in excessive use of your environment variables.
+  
+usage: source setvars.sh [--force] [--config=file] [--help] [...]
+  --force        Force setvars.sh to re-run, doing so may overload environment.
+  --config=file  Customize env vars using a setvars.sh configuration file.
+  --help         Display this help message and exit.
+  ...            Additional args are passed to individual env/vars.sh scripts
+                 and should follow this script's arguments.
+  
+  Some POSIX shells do not accept command-line options. In that case, you can pass
+  command-line options via the SETVARS_ARGS environment variable. For example:
+  
+  $ SETVARS_ARGS="ia32 --config=config.txt" ; export SETVARS_ARGS
+  $ . path/to/setvars.sh
+  
+  The SETVARS_ARGS environment variable is cleared on exiting setvars.sh.
+  
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+    init_turbulence
+        done.
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+    init_turbulence
+        reading turbulence namelists..
+        done.
+        done.
+    init_turbulence
+        reading turbulence namelists..
+    init_turbulence
+        reading turbulence namelists..
+        done.
+        done.
+    init_turbulence
+        reading turbulence namelists..
+    init_turbulence
+        reading turbulence namelists..
+        done.
+        done.
+ 
+:: WARNING: setvars.sh has already been run. Skipping re-execution.
+   To force a re-execution of setvars.sh, use the '--force' option.
+   Using '--force' can result in excessive use of your environment variables.
+  
+usage: source setvars.sh [--force] [--config=file] [--help] [...]
+  --force        Force setvars.sh to re-run, doing so may overload environment.
+  --config=file  Customize env vars using a setvars.sh configuration file.
+  --help         Display this help message and exit.
+  ...            Additional args are passed to individual env/vars.sh scripts
+                 and should follow this script's arguments.
+  
+  Some POSIX shells do not accept command-line options. In that case, you can pass
+  command-line options via the SETVARS_ARGS environment variable. For example:
+  
+  $ SETVARS_ARGS="ia32 --config=config.txt" ; export SETVARS_ARGS
+  $ . path/to/setvars.sh
+  
+  The SETVARS_ARGS environment variable is cleared on exiting setvars.sh.
+  
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+ 
+:: WARNING: setvars.sh has already been run. Skipping re-execution.
+   To force a re-execution of setvars.sh, use the '--force' option.
+   Using '--force' can result in excessive use of your environment variables.
+  
+usage: source setvars.sh [--force] [--config=file] [--help] [...]
+  --force        Force setvars.sh to re-run, doing so may overload environment.
+  --config=file  Customize env vars using a setvars.sh configuration file.
+  --help         Display this help message and exit.
+  ...            Additional args are passed to individual env/vars.sh scripts
+                 and should follow this script's arguments.
+  
+  Some POSIX shells do not accept command-line options. In that case, you can pass
+  command-line options via the SETVARS_ARGS environment variable. For example:
+  
+  $ SETVARS_ARGS="ia32 --config=config.txt" ; export SETVARS_ARGS
+  $ . path/to/setvars.sh
+  
+  The SETVARS_ARGS environment variable is cleared on exiting setvars.sh.
+  
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+    init_turbulence
+        reading turbulence namelists..
+        done.
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.
+    init_turbulence
+        reading turbulence namelists..
+        done.

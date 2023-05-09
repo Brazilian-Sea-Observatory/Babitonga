@@ -1,13 +1,13 @@
 import datetime, os
     
 #Modo previsão
-forecast_mode = 1
+forecast_mode = 1 
 refday_to_start = 0 
 number_of_runs = 4
 
 #Data de início e fim se forecast_mode = 0
-start = datetime.date(2023,4,8)
-end = datetime.date(2023,4,10)
+start = datetime.date(2023,5,6)
+end = datetime.date(2023,5,9)
 
 dirpath = os.getcwd()
 

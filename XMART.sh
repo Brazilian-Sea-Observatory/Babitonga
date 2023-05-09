@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /home/mohid/Aplica/FPOLIS_Bays
+cd /home/mohid/Aplica/Babitonga
 
-/home/mohid/miniconda3/bin/python /home/mohid/Aplica/FPOLIS_Bays/XMART.py >> /home/mohid/Aplica/FPOLIS_Bays/XMART.log 2>&1
+/home/mohid/miniconda3/bin/python /home/mohid/Aplica/Babitonga/XMART.py >> /home/mohid/Aplica/Babitonga/XMART.log 2>&1

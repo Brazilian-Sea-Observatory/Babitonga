@@ -1,4 +1,4 @@
-IN_BATIM                  : ../GeneralData/DigitalTerrain/GridData_Babitonga_v1_Smoothed.dat
+IN_BATIM                  : ../GeneralData/DigitalTerrain/GridData_Babitonga_v1_Smoothed_v01.dat
 ROOT                      : ../res
 ROOT_SRT                  : ../res/run1/
 DT_LOG                    : ../res/DT_Log_1.log

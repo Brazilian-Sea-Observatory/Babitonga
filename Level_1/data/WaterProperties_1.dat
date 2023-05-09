@@ -10,20 +10,6 @@ ADV_METHOD_V              : 4
 TVD_LIMIT_H               : 4
 TVD_LIMIT_V               : 4
 
-LIGHT_EXTINCTION          : 1
-! Parsons formulation k = 0.04 + 0.0088C + 0.054C2/3
-SW_EXTINCTION_TYPE        : 1
-!% of the total radiation that reaches the surface water is direct solar radiation
-SW_PERCENTAGE             : .6
-!Extinction coefficient for the solar radiation or short wave radiation
-SW_EXTINCTION_COEF        : 1.4
-! Only the option constant extinction coefficient is implemented (1).
-LW_EXTINCTION_TYPE        : 1
-!% of the total radiation that reaches the surface water is atmospheric radiation
-LW_PERCENTAGE             : .4
-! Extinction coefficient for the atmospheric radiation or long wave radiation
-LW_EXTINCTION_COEF        : 3.0
-!
 !!Property block
 <beginproperty>
 NAME                      : temperature

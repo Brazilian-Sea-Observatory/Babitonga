@@ -99,7 +99,7 @@ OUTPUT_HDF              : 1
 TIME_SERIE              : 0
 <endproperty>
 
-!<beginproperty>
+<beginproperty>
 NAME                    : pbl height
 UNITS                   : m
 DESCRIPTION             : altura camada limite
@@ -111,23 +111,20 @@ SPATIAL_INTERPOL        : 1
 EXTRAPOLATE             : 1
 TIME_SERIE              : 0
 OUTPUT_HDF              : 1
-!<endproperty>
+<endproperty>
 
-!<beginproperty>
-NAME                    : precipitation
-UNITS                   : mm
-DESCRIPTION             : precipitation
-DEFAULTVALUE            : 100000
-REMAIN_CONSTANT         : 0
-
-ACCUMULATE_VALUES       : 1
-INITIALIZATION_METHOD   : HDF
-FILE_IN_TIME            : HDF
-FILENAME                : ../GeneralData/BoundaryConditions/meteo.hdf5
-FIELD4D                 : 1
-SPATIAL_INTERPOL        : 1
-EXTRAPOLATE             : 1
-
-TIME_SERIE              : 0
-OUTPUT_HDF              : 1
-!<endproperty>
+<beginproperty>
+NAME                      : precipitation
+UNITS                     : mm/hour
+DESCRIPTION               : precipitation description
+FILE_IN_TIME              : HDF
+FIELD4D                   : 1
+SPATIAL_INTERPOL          : 1
+EXTRAPOLATE               : 1
+FILENAME                  : ../GeneralData/BoundaryConditions/meteo.hdf5
+USE_ORIGINAL_VALUES       : 1
+DEFAULTVALUE              : 0.
+REMAIN_CONSTANT           : 0
+TIME_SERIE                : 0
+OUTPUT_HDF                : 1
+<endproperty>

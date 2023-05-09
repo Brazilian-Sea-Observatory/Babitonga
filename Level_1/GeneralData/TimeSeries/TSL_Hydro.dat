@@ -5,21 +5,28 @@ MAX_BUFFER_SIZE           : 10000
 
 <BeginTimeSerie>
 NAME                      : Ilha_da_Paz
-COORD_X                   : -48.49 
-COORD_Y                   : -26.18
+COORD_X                   : -48.486441 
+COORD_Y                   : -26.178414
 LOCALIZATION_K            : 50
 <EndTimeSerie>
 
 <BeginTimeSerie>
 NAME                      : Porto_de_Itapoa
-COORD_X                   : -48.61 
-COORD_Y                   : -26.19
+COORD_X                   : -48.605867
+COORD_Y                   : -26.185037
 LOCALIZATION_K            : 50
 <EndTimeSerie>
 
 <BeginTimeSerie>
 NAME                      : Joinville_Iate_Clube
-COORD_X                   : -48.79 
-COORD_Y                   : -26.3
+COORD_X                   : -48.780344
+COORD_Y                   : -26.293499
+LOCALIZATION_K            : 50
+<EndTimeSerie>
+
+<BeginTimeSerie>
+NAME                      : Sao_Francisco_do_Sul
+COORD_X                   : -48.638943
+COORD_Y                   : -26.2332
 LOCALIZATION_K            : 50
 <EndTimeSerie>

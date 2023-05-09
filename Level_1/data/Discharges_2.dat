@@ -1,5 +1,5 @@
 IGNORE_ON                 : 1
-SLOW_START                : 86400
+!SLOW_START                : 86400
 
 <begindischarge>
 NAME                      : Rio Cubatao do Norte

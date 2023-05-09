@@ -1,6 +1,6 @@
 !MOHID Studio Sample Data File
 !Horizontal Viscosity - 10% of grid size. in meters. is a good starting value
-VISCOSITY_H               : 4    !m2/s
+VISCOSITY_H               : 12    !m2/s
 !Vertical Viscosity 3D app only
 VISCOSITY_V               : 0.0001     !m2/s
 
@@ -10,7 +10,7 @@ CONTINUOUS                : 0
 MODVISH                  : file2D
 
 <begin_viscosity_h>
-DEFAULTVALUE            : 4
+DEFAULTVALUE            : 12
 TYPE_ZUV                : z
 FILE_IN_TIME            : NONE
 INITIALIZATION_METHOD   : Sponge
